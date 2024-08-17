@@ -32,7 +32,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 root = tk.Tk()
 
-URL="https://raw.githubusercontent.com/MandiYang/YOUAREANIDIOT.PY.TROJAN/master/image/IDIOT.png"
+URL="https://github.com/arda-40/-diotPY/blob/main/idiot.jpg"
 response = request.urlopen(URL, context=ctx)
 img_data = response.read()
 h=BytesIO(img_data)
